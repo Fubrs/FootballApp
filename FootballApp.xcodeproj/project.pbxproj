@@ -16,6 +16,7 @@
 		861D50A72B8D35610072529E /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861D50A62B8D35610072529E /* Country.swift */; };
 		861D50A92B8D386C0072529E /* CountryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861D50A82B8D386C0072529E /* CountryPresenter.swift */; };
 		861D50AD2B8D38C80072529E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861D50AC2B8D38C80072529E /* NetworkManager.swift */; };
+		864583E92B8E4F2E0067181E /* CountriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864583E82B8E4F2E0067181E /* CountriesCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		861D50A62B8D35610072529E /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		861D50A82B8D386C0072529E /* CountryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPresenter.swift; sourceTree = "<group>"; };
 		861D50AC2B8D38C80072529E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		864583E82B8E4F2E0067181E /* CountriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		861D50A12B8D2CBC0072529E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				864583E72B8E4EAF0067181E /* Cells */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -130,6 +133,14 @@
 				861D50AC2B8D38C80072529E /* NetworkManager.swift */,
 			);
 			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		864583E72B8E4EAF0067181E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				864583E82B8E4F2E0067181E /* CountriesCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +215,7 @@
 			files = (
 				861D50902B8D2B3D0072529E /* MainTabBarController.swift in Sources */,
 				861D508C2B8D2B3D0072529E /* AppDelegate.swift in Sources */,
+				864583E92B8E4F2E0067181E /* CountriesCell.swift in Sources */,
 				861D508E2B8D2B3D0072529E /* SceneDelegate.swift in Sources */,
 				861D50AD2B8D38C80072529E /* NetworkManager.swift in Sources */,
 				861D50A92B8D386C0072529E /* CountryPresenter.swift in Sources */,
